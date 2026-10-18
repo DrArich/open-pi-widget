@@ -21,7 +21,7 @@ public class PiWidgetProvider extends AppWidgetProvider {
             try {
                 String[] data = PiApi.load();
                 status = "● Raspberry Pi Online";
-                metrics = data[1];
+                metrics = data[1] + "\n" + data[3];
             } catch (Exception e) {
                 status = "● Нет соединения";
                 metrics = "CPU: --%   RAM: --%\nTEMP: --°C   DISK: --%";
