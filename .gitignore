@@ -1,0 +1,17 @@
+build/
+backup/
+*.apk
+*.apks
+*.log
+*.pyc
+__pycache__/
+.venv/
+.env
+.env.*
+*.keystore
+*.jks
+*.key
+*.pem
+local.properties
+
+*.bak
